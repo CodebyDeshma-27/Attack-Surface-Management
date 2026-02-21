@@ -5,7 +5,6 @@ baseline/*.sqlite3
 # Ignore the generated Nmap XML and HTML reports
 output/*.xml
 output/*.html
-output/*.json
 
 # Python Environment
 __pycache__/
