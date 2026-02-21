@@ -1,1 +1,37 @@
-<h1>Attack Surface Report</h1><ul><li>LOW - Service removed - ('127.0.0.1', '8080', 'http', '0.6')</li></ul>
+
+    <html>
+    <head>
+        <title>ASM Security Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; background-color: #f4f7f6; color: #333; margin: 40px; }
+            h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+            .summary { margin-bottom: 20px; font-weight: bold; }
+            table { width: 100%; border-collapse: collapse; margin-top: 20px; background: #fff; }
+            th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+            th { background-color: #34495e; color: white; }
+            .HIGH { color: #e74c3c; font-weight: bold; }
+            .LOW { color: #27ae60; font-weight: bold; }
+            .MEDIUM { color: #f39c12; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>🛡️ Attack Surface Management Report</h1>
+        <p class="summary">Scan Completed: 2026-02-21 21:49:56</p>
+        
+        <table>
+            <tr>
+                <th>Severity</th>
+                <th>Reason</th>
+                <th>Change Details (Host, Port, Service, Version)</th>
+            </tr>
+    
+            <tr>
+                <td class="LOW">LOW</td>
+                <td>Service removed</td>
+                <td>127.0.0.1:9090 (http 0.6)</td>
+            </tr>
+            
+        </table>
+    </body>
+    </html>
+    

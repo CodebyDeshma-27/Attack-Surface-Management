@@ -1,0 +1,13 @@
+# Ignore the SQLite database since it changes every scan
+baseline/*.db
+baseline/*.sqlite3
+
+# Ignore the generated Nmap XML and HTML reports
+output/*.xml
+output/*.html
+output/*.json
+
+# Python Environment
+__pycache__/
+*.py[cod]
+*$py.class
